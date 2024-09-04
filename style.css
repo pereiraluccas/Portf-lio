@@ -239,3 +239,110 @@ img{
     display: flex;
     flex-direction: row;
  }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile {
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .descricao, .minhaFoto {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .fotoPerfil {
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .sobre, .skills, .portfolio {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .skills .logos {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .organizar, .organizar2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .organizar3 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tumb {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .botoes {
+        width: 80%;
+        margin: 10px auto;
+        padding: 0;
+    }
+
+    .projeto, .github, .contratar {
+        width: 80px;
+        height: 40px;
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    .linkedin-contratar {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+}
+
+/* Estilo adicional para telas muito pequenas */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .fotoPerfil {
+        width: 80px;
+    }
+
+    .skills .logos {
+        width: 30px;
+        margin: 5px;
+    }
+
+    .projeto, .github, .contratar {
+        width: 70px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .linkedin-contratar {
+        width: 30px;
+        height: 30px;
+    }
+}
