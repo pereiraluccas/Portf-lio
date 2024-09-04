@@ -318,6 +318,14 @@ img{
         font-size: 12px;
         color: white;
     }
+     .imagens{
+        justify-content: center;
+        align-items: center;
+    }
+    .linkedin{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Estilo adicional para telas muito pequenas */
@@ -356,5 +364,13 @@ img{
         height: 35px;
         font-size: 12px;
         color: white;
+    }
+     .imagens{
+        justify-content: center;
+        align-items: center;
+    }
+    .linkedin{
+        justify-content: center;
+        align-items: center;
     }
 }
