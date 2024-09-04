@@ -323,7 +323,7 @@ img{
         align-items: center;
     }
     .linkedin{
-        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -369,6 +369,6 @@ img{
         align-items: center;
     }
     .linkedin{
-        align-items: center;
+        justify-content: center;
     }
 }
