@@ -325,6 +325,10 @@ img{
     .linkedin{
         justify-content: center;
     }
+      .linkedin-contratar{
+        margin-top: 70px;
+    }
+
 }
 
 /* Estilo adicional para telas muito pequenas */
@@ -371,4 +375,8 @@ img{
     .linkedin{
         justify-content: center;
     }
+      .linkedin-contratar{
+        margin-top: 70px;
+    }
+
 }
